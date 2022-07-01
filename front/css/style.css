@@ -1,0 +1,95 @@
+#form {
+    background: #29015586;
+    padding: 0.25rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    height: 3rem;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+}
+body{
+    background-color:#1b0236;
+    color: white;
+}
+#body-talk{
+background-color: black;
+color: white;
+}
+#input {
+    border: none;
+    padding: 0 1rem;
+    flex-grow: 1;
+    border-radius: 2rem;
+    margin: 0.25rem;
+}
+#input:focus {
+    outline: none;
+}
+#form>button {
+    background:#e9bdff ;
+    border: none;
+    padding: 0 1rem;
+    margin: 0.25rem;
+    border-radius: 3px;
+    outline: none;
+    color: #fff;
+}
+#messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 3rem;
+}
+#messages>li {
+    padding: 0.5rem 1rem;
+    font-size: 25px;
+}
+/* #messages>li:nth-child(odd) {
+    background: #300047;
+} */
+
+#bck-color{
+    background-color: #1b0236 ;
+}
+#main{
+    background-color: #e9bdff;
+    height: 500px;
+    border: solid black 4px;
+    border-radius: 25px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.529);
+}
+
+#email, #username, #password{
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.268);
+}
+
+#loginBtn{
+    font-size: 2rem;
+    width: 30%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.268);
+}
+#loginForm{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    height: 500px ;
+    justify-content: space-evenly;
+}
+#input-login{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
